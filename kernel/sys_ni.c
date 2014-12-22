@@ -229,6 +229,3 @@ cond_syscall(sys_bpf);
 
 /* execveat */
 cond_syscall(sys_execveat);
-
-/* Kernel Transactional Memory */
-cond_syscall(sys_txctl);
